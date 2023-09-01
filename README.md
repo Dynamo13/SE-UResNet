@@ -13,8 +13,24 @@ The datasets used in the paper can be downloaded from the links below:
 - [NIH CXR](https://www.kaggle.com/datasets/nih-chest-xrays/data)
 
   In order to download the segmentation masks please refer to the [link]()
-
-  ## Citation
+ ## Code Implementation
+ ### Pre-requisites
+ For proper implementation of the code, the requirement.txt file is provided. This eases the process of creating a python environment suitable for the reproducibility of the code. This code is developed in ***Python version 3.9***. It is suggested for the user to 
+ create a new environment and move the script (.py) files to the file path of the new environment.
+ ### Tensorflow implementation
+ Script files in conjuction with the jupyter notebook (.ipnyb) [files](SE_UResNet_tf.ipnyb) are provided for implementing the code in ***Tensorflow environment with a version of 2.9.0***. Please run the .ipnyb file to reproduce the code in Jupyter Notebook. The users are required to provide 
+ the paths for image (arg1) and mask folders (arg2). The users are also requested to provide a path of their choosing where they want to store the weights (arg3). Note that the weight folder provided should exist in the local machine/cloud. Individual image and masks are required to be in PNG image format.
+ In order to implement the code in command prompt/python prompt,run:
+ ```
+     cd /path/to/env/AW-Net
+     python main.py arg1 arg2 arg3
+ ```
+ The saved weights will be stored under the path provided as an argument as .h5 file.
+ ### Pytorch Implementation
+ 
+ Please refer to the [notebook]() for pytorch implementation.
+ 
+ ## Citation
   ```
   D. Pal, T. Meena and S. Roy, "A Fully Connected Reproducible SE-UResNet for Multiorgan Chest Radiographs Segmentation," 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI), Bellevue, WA, USA, 2023, pp. 261-266, doi:     
   10.1109/IRI58017.2023.00052.
