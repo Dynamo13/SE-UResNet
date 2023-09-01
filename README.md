@@ -19,7 +19,7 @@ The datasets used in the paper can be downloaded from the links below:
   In order to download the segmentation masks please refer to the [link]()
  ## Code Implementation
  ### Pre-requisites
- For proper implementation of the code, the requirement.txt file is provided. This eases the process of creating a python environment suitable for the reproducibility of the code. This code is developed in ***Python version 3.9***. It is suggested for the user to 
+ For proper implementation of the code, the requirements.txt [file](requirements.txt) is provided. This eases the process of creating a python environment suitable for the reproducibility of the code. This code is developed in ***Python version 3.9***. It is suggested for the user to 
  create a new environment and move the script (.py) files to the file path of the new environment.
  ### Tensorflow implementation
  Script files in conjuction with the jupyter notebook (.ipnyb) [files](SE_UResNet_tf.ipnyb) are provided for implementing the code in ***Tensorflow environment with a version of 2.9.0***. Please run the .ipnyb file to reproduce the code in Jupyter Notebook. The users are required to provide 
