@@ -1,4 +1,4 @@
-# SE_UResNet
+# SE-UResNet
 This repository contains the official codebase of SE-UResNet which was accepted in AIHC workshop 2023 of IEEE IRI conference [Paper](https://www.computer.org/csdl/proceedings-article/iri/2023/345800a261/1Q259zGjbH2). SE-UResNet focuses on segmenting multiple organs/regions of interests such as Heart, Lungs, Trachea, Collarbone, and Spine from chest radiograph images.
 
 ## Overview
@@ -15,4 +15,7 @@ The datasets used in the paper can be downloaded from the links below:
   In order to download the segmentation masks please refer to the [link]()
 
   ## Citation
-  ```D. Pal, T. Meena and S. Roy, "A Fully Connected Reproducible SE-UResNet for Multiorgan Chest Radiographs Segmentation," 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI), Bellevue, WA, USA, 2023, pp. 261-266, doi: 10.1109/IRI58017.2023.00052.```
+  ```
+  D. Pal, T. Meena and S. Roy, "A Fully Connected Reproducible SE-UResNet for Multiorgan Chest Radiographs Segmentation," 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI), Bellevue, WA, USA, 2023, pp. 261-266, doi:     
+  10.1109/IRI58017.2023.00052.
+  ```
