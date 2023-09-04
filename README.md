@@ -3,14 +3,14 @@
 ![TensorFlow 2.9.0](https://img.shields.io/badge/tensorflow-2.9.0-green.svg?style=plastic)
 ![cuDNN 8.6.0](https://img.shields.io/badge/cudnn-8.6.0-green.svg?style=plastic)
 
-This repository contains the official codebase of SE-UResNet which was accepted in AIHC workshop 2023 of IEEE IRI conference [Paper](https://www.computer.org/csdl/proceedings-article/iri/2023/345800a261/1Q259zGjbH2). SE-UResNet focuses on segmenting multiple organs/regions of interests such as Heart, Lungs, Trachea, Collarbone, and Spine from chest radiograph images.
+This repository contains the official codebase of SE-UResNet which was accepted in AIHC workshop 2023 of IEEE IRI conference [Paper](https://ieeexplore.ieee.org/abstract/document/10229358). SE-UResNet focuses on segmenting multiple organs/regions of interests such as Heart, Lungs, Trachea, Collarbone, and Spine from chest radiograph images.
 
-## Overview
+## 📖 Overview
 A novel fully connected segmentation model which provides a solution to problem of multiorgan segmentation from Chest X-Rays by incorporating a novel residual module. This module in conjuction with S&E modules in individual decoding pathway improves segmentation accuracy and also makes this model reproducible. The implementation is inspired from ***Attention UW-Net: A fully connected model for automatic segmentation and annotation of chest X-ray***  [Code](https://github.com/Dynamo13/Attention_UWNet) | [Paper]( https://www.sciencedirect.com/science/article/abs/pii/S0010482522007910).
 
-## Network Architecture
+## 💫 Network Architecture
 <p align="center">
-<img src="fig1.png" alt="Model Architecture" width="900" height="700">
+<img src="fig1.png" alt="Model Architecture" width="900" height="600">
 </p>
 
 ## Datasets
@@ -21,7 +21,7 @@ The datasets used in the paper can be downloaded from the links below:
 - [NIH CXR](https://www.kaggle.com/datasets/nih-chest-xrays/data)
 
   In order to download the segmentation masks for NIH data, please refer to the [link](https://drive.google.com/drive/folders/1k4psaxvPJfkQ9DWzcUiLu5ld8ZlwKjnx?usp=sharing)
- ## Code Implementation
+ ## ✨️ Code Implementation
  ### Pre-requisites
  For proper implementation of the code, the requirements.txt [file](requirements.txt) is provided. This eases the process of creating a python environment suitable for the reproducibility of the code. This code is developed in ***Python version 3.9***. It is suggested for the user to 
  create a new environment and move the script (.py) files to the file path of the new environment.
@@ -57,7 +57,7 @@ The datasets used in the paper can be downloaded from the links below:
  
  Please refer to the [notebook](model_pytorch.ipynb) for pytorch implementation.
  
- ## Citation
+ ## 📑 Citation
  If you use this code in your research, please cite:
   ```
   D. Pal, T. Meena and S. Roy, "A Fully Connected Reproducible SE-UResNet for Multiorgan Chest Radiographs Segmentation," 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI), Bellevue, WA, USA, 2023, pp. 261-266, doi:     
