@@ -1,4 +1,8 @@
 # SE-UResNet
+![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg?style=plastic)
+![TensorFlow 2.9.0](https://img.shields.io/badge/tensorflow-2.9.0-green.svg?style=plastic)
+![cuDNN 8.6.0](https://img.shields.io/badge/cudnn-8.6.0-green.svg?style=plastic)
+
 This repository contains the official codebase of SE-UResNet which was accepted in AIHC workshop 2023 of IEEE IRI conference [Paper](https://www.computer.org/csdl/proceedings-article/iri/2023/345800a261/1Q259zGjbH2). SE-UResNet focuses on segmenting multiple organs/regions of interests such as Heart, Lungs, Trachea, Collarbone, and Spine from chest radiograph images.
 
 ## Overview
@@ -6,7 +10,7 @@ A novel fully connected segmentation model which provides a solution to problem 
 
 ## Network Architecture
 <p align="center">
-<img src="fig1.png" alt="Model Architecture" width="800" height="500">
+<img src="fig1.png" alt="Model Architecture" width="900" height="700">
 </p>
 
 ## Datasets
@@ -16,7 +20,7 @@ The datasets used in the paper can be downloaded from the links below:
 - [Shenzen](https://www.kaggle.com/datasets/yoctoman/shcxr-lung-mask)
 - [NIH CXR](https://www.kaggle.com/datasets/nih-chest-xrays/data)
 
-  In order to download the segmentation masks please refer to the [link]()
+  In order to download the segmentation masks for NIH data, please refer to the [link](https://drive.google.com/drive/folders/1k4psaxvPJfkQ9DWzcUiLu5ld8ZlwKjnx?usp=sharing)
  ## Code Implementation
  ### Pre-requisites
  For proper implementation of the code, the requirements.txt [file](requirements.txt) is provided. This eases the process of creating a python environment suitable for the reproducibility of the code. This code is developed in ***Python version 3.9***. It is suggested for the user to 
@@ -54,6 +58,7 @@ The datasets used in the paper can be downloaded from the links below:
  Please refer to the [notebook](model_pytorch.ipynb) for pytorch implementation.
  
  ## Citation
+ If you use this code in your research, please cite:
   ```
   D. Pal, T. Meena and S. Roy, "A Fully Connected Reproducible SE-UResNet for Multiorgan Chest Radiographs Segmentation," 2023 IEEE 24th International Conference on Information Reuse and Integration for Data Science (IRI), Bellevue, WA, USA, 2023, pp. 261-266, doi:     
   10.1109/IRI58017.2023.00052.
